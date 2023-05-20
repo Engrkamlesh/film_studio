@@ -1,3 +1,4 @@
+import 'package:film_studio/pages/My_screen.dart';
 import 'package:film_studio/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light
       ),
       themeMode: ThemeMode.light,
-      home: Home_Page(),
+      home: View_Salon(),
     );
   }
 }

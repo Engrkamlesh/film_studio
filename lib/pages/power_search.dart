@@ -101,6 +101,7 @@ class _Power_SearchState extends State<Power_Search> {
                               ],
                             );
                           });
+                    
                     }),
                     const SizedBox(width: 20),
                     buildRow('SORT BY NEWEST', () {

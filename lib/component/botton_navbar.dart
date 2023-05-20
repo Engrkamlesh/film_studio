@@ -4,6 +4,8 @@ import 'package:film_studio/pages/power_search.dart';
 import 'package:film_studio/pages/today_page.dart';
 import 'package:flutter/material.dart';
 
+import '../pages/My_screen.dart';
+
 class Bottom_Nav_Bar extends StatefulWidget {
   const Bottom_Nav_Bar({super.key});
 
@@ -42,7 +44,7 @@ class _Bottom_Nav_BarState extends State<Bottom_Nav_Bar> {
          icon: const Icon(Icons.add),
           color: Colors.black45,),
         IconButton(onPressed: (){
-          Navigator.push(context, MaterialPageRoute(builder: (context)=>Power_Search()));
+          Navigator.push(context, MaterialPageRoute(builder: (context)=>View_Salon()));
         },
          icon: const Icon(Icons.search),
           color: Colors.black45,),
